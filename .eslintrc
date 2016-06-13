@@ -1,0 +1,14 @@
+---
+extends:
+  - standard
+  - import
+
+env:
+  node: true
+  browser: true
+
+rules:
+  max-len: 1
+  complexity:
+    - 1
+    - max: 10
